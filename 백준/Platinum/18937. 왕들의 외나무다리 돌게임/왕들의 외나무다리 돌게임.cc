@@ -1,0 +1,2 @@
+#include <bits/stdc++.h>
+int main(){int N,a;int ans=0;std::string s;std::cin>>N;while(N--){std::cin>>a;ans^=(a-2);};std::cin>>s;std::cout<<(((ans>0)^(s=="Whiteking"))?"Blackking":"Whiteking")<<std::endl;return 0;}
